@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fo action="/submit-form" method="post">
+        <h1>DETAILS</h1>
+        
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+                <br><br><br>
+            <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+                <br><br><br>
+            <label for="mobile_number">Mobile no:</label>
+                <input type="number" id="Mobile" name="mobile_number">
+                <br><br><br>
+                <label>Gender</label>
+                <input type="radio" name="Gender">
+                <label>male</label>
+                <input type="radio" name="Gender">
+                <label>female</label><br><br>
+            <label for="district">District:</label>
+                <select name="district" id="district">
+                    <option value="kollam">kollam</option>
+                    <option value="ernakulam">ernakulam</option>
+                    <option value="trivandrum">trivandrum</option>
+                     <option value="kottayam">kottayam</option>
+                </select>
+                <br><br>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+            <br><br>
+            <input type="checkbox" id="declaration" name="declaration" value="declaration>
+            <label for="declaration"> Agree</label><br>
+            <input type="submit" id="Submit" name="submit">
+
+
+          
+      </form>
+      
+    
+</body>
+</html>

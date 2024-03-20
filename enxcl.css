@@ -1,0 +1,39 @@
+#headerlogo{
+    padding-left: 30px;
+}
+
+#menu{
+    padding-left: 400px;
+    color:black;
+}
+h1{
+    font-weight: bolder;
+}
+h1 span{
+    font-weight: bolder;
+    color: green;
+}
+#sub h2{
+    font-weight: bold;
+}
+#sub h2 span{
+    font-weight: bold;
+    color:green;
+}
+p{
+    font-weight: bold;
+
+}
+#imgg{
+    padding-left: 170px;
+}
+footer{
+    background-color:black;
+    color: white;
+}
+footer div{
+    background-color: black;
+}
+footer img{
+    background-color: black;
+}
